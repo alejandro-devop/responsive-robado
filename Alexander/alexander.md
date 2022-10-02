@@ -39,12 +39,11 @@
             <a href="#container-git-commit">Guardar cambios</a>
         </li>
         <li>
-          <a href="#container-git-init">Repositorio remoto</a>
+          <a href="#container-git-add-remote">Repositorio remoto</a>
         </li>
-        <li>  <a href="#container-git-init"> Enviar cambios al tepositorio remoto</a>
+        <li>  <a href="#container-git-push"> Enviar cambios al tepositorio remoto</a>
         </li>
-         <a href="#container-git-init">Actualizar repositorio local</a>
-        <li>
+        <li> <a href="#container-git-pull">Actualizar repositorio local</a>
         </li>
        </ol>
      </nav>
@@ -122,7 +121,7 @@
             </footer>
         </article>
         </br>
-        <article>
+        <article id= container-git-add-origin>
             <header>
             <h4> 
                 <strong>
@@ -142,7 +141,7 @@
             </footer>
         </article>
         </br>
-        <article>
+        <article id = container-git-push>
             <hearder>
                 <h4>
                     <strong>
@@ -166,7 +165,7 @@
             </p>
             </footer>
         </article>
-        <article>
+        <article id = container-git-push>
             <header>
                 <h4>
                 <strong>
