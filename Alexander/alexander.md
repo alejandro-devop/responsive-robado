@@ -33,18 +33,17 @@
            <a href="#container-git-init">Iniciar un nuevo repositorio</a>
         </li>
         <li>
-            <a href="#container-git-add">Guardar cambios</a>
+            <a href="#container-git-add">Seguimiento</a>
         </li>
         <li>
+            <a href="#container-git-commit">Guardar cambios</a>
         </li>
         <li>
+          <a href="#container-git-init">Repositorio remoto</a>
         </li>
-        <li>
+        <li>  <a href="#container-git-init"> Enviar cambios al tepositorio remoto</a>
         </li>
-        <li>
-        </li>
-        <li>
-        </li>
+         <a href="#container-git-init">Actualizar repositorio local</a>
         <li>
         </li>
        </ol>
@@ -95,10 +94,100 @@
         </br>
         Para indicarle a git que debe escuchar realizar seguimiento a al archivo utilizamos el comando <em>"git add [nombre del arichovo] o git add . para selecionar todos los archivos"</em>
         </br>
-        Al ingresar este comando podemos volver a ingresar el  comando <em>"git status"</em> y podremos observar que el archivo ahora se encuentra de color ver y la leta <strong>M</strong> cambio a <strong>A</strong>. Ahora git esta realizando seguimeitno a nuestro archivo.  
+        Al ingresar este comando podemos volver a ingresar el  comando <em>"git status"</em> y podremos observar que el archivo ahora se encuentra de color verde y la leta <strong>M</strong> cambio a <strong>A</strong>. Ahora git esta realizando seguimeitno a nuestro archivo.  
         </p>
     </footer>
      </article>
     </section>
-
+    </br>
+    <section>
+        <article id = container-git-commit>
+        <header>
+            <h4>
+                <strong> Git commit
+                </strong>
+            </h4>
+        </header>
+        <footer>
+            <p>
+                El comando <em>git commit</em> nos ayuda a crear una punto en el tiempo en el que podemos retornar,Esta informacón se almacena en la carpeta
+                <em>
+                .git
+                </em>, le damos la bandera <strong>
+                -M</strong> para agregar información hacerca del commit que se va a realizar
+                ('git commit -m "example"').
+                </br>
+                si ingresamos el comando git status notaremos que el archivo ya no se visualiza, eso se deba a que se encuentra en el area de repositorio
+            </p>
+            </footer>
+        </article>
+        </br>
+        <article>
+            <header>
+            <h4> 
+                <strong>
+                    Git add remote origen
+                </strong>
+             </h4>
+            </header>
+            <footer>
+            <p> git es una herramienta muy utilizada con <em>github</em>. Este nos permite alojar nuestro reposotorio local y compartirlo con nuestro equipo de trabajo o la comunidad de desarollo en si.
+            <br>
+            para poder enviar nuestro repositorio a git primero debemos crear una cuenta y crear un repo. Luego tenemos que indicarle la ruta a git del repositorio, para eso existe el comando 
+            <em>
+                git add remote origen [ "path del la ruta" ]
+            </em>
+            con este comando abremos agreagdo la ruta.
+            </p>
+            </footer>
+        </article>
+        </br>
+        <article>
+            <hearder>
+                <h4>
+                    <strong>
+                    Git push 
+                    </strong>
+                </h4>
+            </hearder>
+            <footer>
+            <p>
+                Cuando ya realizamos un commit podemos eniviar nuestro repositorio a un repositorio remoto, esto lo podemos hacer mediente el comando 
+                <em>
+                    "git push origin [branch]"
+                </em>
+                por defecto la rama principal es master.
+                </br>
+                para subir nuestro contenido a la rama master utilizariamos el comando  <em>
+                    "git push origin master"
+                </em>.
+                </br>
+                ahora nuestro repo esta en remoto
+            </p>
+            </footer>
+        </article>
+        <article>
+            <header>
+                <h4>
+                <strong>
+                Git pull
+                </strong>
+                </h4>
+            </header>
+            <footer>
+            <p>
+            cuando trabajamos con repositorios remotos y con colaboradores, se recomienda antes de iniciar actualizar el repo por si algun compañero hizo algunos nuevos cambios.
+            esto lo podemos realizar mediante el comando <em> "git pull origin [branch]"</em>.
+            </br>
+            si no actualizamos nuestro repo podemos encontrarnos con conflictos
+            </p>
+            </footer>
+        </article>
+    </section>
+    </br>
+    <footer>
+        <p>
+         <strong>by Kravmaga</strong> 
+        </p>
+    </footer>
 </section>
