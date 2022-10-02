@@ -19,7 +19,8 @@
         </strong>
      </h2>
         <h4>
-            header¡¡Hola!!<br> 
+        <header>
+        ¡¡Hola!!<br> 
             En este documento encuentras una pequeña guía con el paso a paso de como crear tu primer repositorio 
         </h4>
      </header>
@@ -32,6 +33,7 @@
            <a href="#container-git-init">Iniciar un nuevo repositorio</a>
         </li>
         <li>
+            <a href="#container-git-init">Iniciar un nuevo repositorio</a>
         </li>
         <li>
         </li>
